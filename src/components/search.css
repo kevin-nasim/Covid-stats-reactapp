@@ -1,0 +1,32 @@
+.search {
+  margin-top: 4rem;
+}
+
+.search input {
+  height: 4.5rem;
+  width: 70%;
+  padding: 0.5em;
+  border: none;
+  border-radius: 1rem;
+  background-color: #42495c;
+}
+
+.search input::placeholder,
+.search input[type] {
+  color: #8491a5;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding-left: 1rem;
+}
+
+.search-btn {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  height: 4.5rem;
+  width: 25%;
+  margin-left: 5%;
+  background-color: #789fff;
+  /* margin-left: 5%; */
+}

@@ -1,0 +1,49 @@
+button {
+  width: 13rem;
+  height: 4.5rem;
+  border-radius: 1rem;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.button-1 {
+  background-color: #4dbe85;
+  margin: 1rem 1rem;
+}
+
+.button-1-unactive {
+  background-color: #4dbe85;
+  opacity: 0.5;
+  margin: 1rem 1rem;
+}
+
+.button-2 {
+  background-color: #ff3a50;
+  margin: 1rem 1rem;
+}
+
+.button-2-unactive {
+  background-color: #ff3a50;
+  opacity: 0.5;
+  margin: 1rem 1rem;
+}
+
+.button-3 {
+  background-color: #20c3f6;
+  margin: 1rem 1rem;
+}
+
+.button-3-unactive {
+  background-color: #20c3f6;
+  opacity: 0.5;
+  margin: 1rem 1rem;
+}
+
+.btn p {
+  font-weight: medium;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.6rem;
+  color: white;
+}

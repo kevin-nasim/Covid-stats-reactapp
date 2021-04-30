@@ -1,0 +1,40 @@
+.country-card {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  /* Rectangle 8 */
+
+  background: linear-gradient(
+    180deg,
+    #9820f6 0%,
+    rgba(105, 183, 255, 0) 123.21%
+  );
+  border-radius: 15px;
+}
+
+.country-card h1 {
+  margin-left: 4rem;
+  padding-top: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  line-height: 3.5rem;
+}
+
+.country-card p {
+  margin-top: 1rem;
+  margin-left: 4rem;
+  font-size: 1.4rem;
+  font-weight: medium;
+  opacity: 0.5;
+}
+
+.country-card h2 {
+  margin-top: -0.5rem;
+  margin-left: 4rem;
+  font-size: 3.6rem;
+  font-weight: medium;
+}
+
+.country-card h2:last-child {
+  padding-bottom: 3rem;
+}

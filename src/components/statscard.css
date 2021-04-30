@@ -1,0 +1,75 @@
+.stats-card {
+  margin-top: 2rem;
+  background: linear-gradient(
+    180deg,
+    #4dbe85 0%,
+    rgba(133, 255, 196, 0) 123.21%
+  );
+  border-radius: 15px;
+  border-radius: 1.5rem;
+}
+
+.stats-card-total {
+  margin-top: 2rem;
+  background: linear-gradient(
+    180deg,
+    #4dbe85 0%,
+    rgba(133, 255, 196, 0) 123.21%
+  );
+  border-radius: 15px;
+  border-radius: 1.5rem;
+}
+
+.stats-card-deaths {
+  margin-top: 2rem;
+  /* Rectangle 5 */
+
+  background: linear-gradient(
+    180deg,
+    #cb2d3e 0%,
+    rgba(255, 133, 133, 0) 123.21%
+  );
+
+  border-radius: 1.5rem;
+}
+
+.stats-card-recovered {
+  margin-top: 2rem;
+  /* Rectangle 5 */
+
+  background: linear-gradient(
+    180deg,
+    #20c3f6 0%,
+    rgba(105, 183, 255, 0) 123.21%
+  );
+
+  border-radius: 1.5rem;
+}
+
+.stats-card-container img {
+  margin-top: 4rem;
+  margin-left: 4rem;
+  opacity: 0.5;
+}
+
+.stats-card-container p {
+  margin-top: 1rem;
+  margin-left: 4rem;
+  font-size: 1.8rem;
+  font-weight: medium;
+  opacity: 0.5;
+}
+
+.stats-card-container span {
+  margin-left: 4rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.stats-card-container h1 {
+  margin-left: 4rem;
+  font-size: 4.8rem;
+  font-weight: bold;
+  padding-bottom: 3rem;
+}

@@ -1,0 +1,43 @@
+.province-card {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.province::-webkit-scrollbar {
+  display: none;
+}
+
+.province {
+  display: flex;
+  margin-top: 1rem;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.province p {
+  margin-bottom: 10%;
+  font-size: 1.2rem;
+}
+
+.province p:first-child {
+  font-size: 1.8rem;
+  opacity: 0.5;
+}
+
+.province-name {
+  width: 25%;
+}
+
+.province-confirmed {
+}
+
+.province-deaths,
+.province-recovered,
+.province-confirmed {
+  margin-left: 3rem;
+  width: 25%;
+}
+
+.province-deaths {
+  color: #cb2d3e;
+}
